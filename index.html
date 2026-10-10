@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TES Coding Crew</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main class="site-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="community">TES Community</p>
+        <h1>Welcome to the coding crew!</h1>
+        <p>Our mission: share a website with the world, then make it even better.</p>
+        <a class="mission-link" href="#practice">Try the cheering button <span aria-hidden="true">↗</span></a>
+      </div>
+      <img class="hero-image" src="./images/coding-crew.png" alt="A young coding crew works with a friendly robot in a futuristic space lab" width="600" height="600">
+    </header>
+    <section class="journey" aria-labelledby="journey-title">
+      <h2 id="journey-title">Your website’s journey</h2>
+      <ol class="journey-steps">
+        <li><img src="./images/save.png" alt="" width="64" height="64"><div><h3>1. Save a version</h3><p>Git records a commit with a message about your change.</p></div></li>
+        <li><img src="./images/share.png" alt="" width="64" height="64"><div><h3>2. Share the project</h3><p>GitHub keeps your repository online.</p></div></li>
+        <li><img src="./images/rocket.png" alt="" width="64" height="64"><div><h3>3. Publish the website</h3><p>GitHub Pages gives visitors a link to your website.</p></div></li>
+      </ol>
+    </section>
+    <section class="code-lab" aria-labelledby="code-title">
+      <img src="./images/code-robot.png" alt="A friendly robot connects a webpage to bricks, a paintbrush and a lightning bolt" width="420" height="420" loading="lazy">
+      <div>
+        <h2 id="code-title">What powers your website?</h2>
+        <p><strong>HTML is the structure.</strong> It gives the page headings, paragraphs and buttons.</p>
+        <p><strong>CSS is the style.</strong> It controls colour, spacing and layout.</p>
+        <p><strong>JavaScript is the action.</strong> It makes the cheering button respond.</p>
+      </div>
+    </section>
+    <section class="club-card" id="practice" aria-labelledby="practice-title">
+      <img class="practice-icon" src="./images/party.png" alt="" width="64" height="64">
+      <h2 id="practice-title">A cheer for the coding crew</h2>
+      <p>Click Cheer to add one. Can you discover the special message?</p>
+      <p id="message" class="cheer-message" aria-live="polite">Cheers: 0</p>
+      <div class="actions">
+        <button id="cheer" type="button"><img src="./images/party.png" alt="" width="24" height="24">Cheer</button>
+        <button id="reset" type="button"><img src="./images/reset.png" alt="" width="24" height="24">Reset</button>
+      </div>
+      <p class="challenge"><strong>Your challenge:</strong> change the special message, choose a new border colour, then publish your improvement.</p>
+    </section>
+    <footer>
+      <p>TES Community · Trainer: Osazee Odigie</p>
+      <p class="credits">Icons: <a href="https://github.com/twitter/twemoji">Twemoji</a>, Twitter and contributors, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
